@@ -1,15 +1,15 @@
 # crypto-fun
-Some of cryptography concepts implemented in C#
+Some of the cryptography concepts implemented in C#
 
 ## Components
 ### `Qcrypto`
-Takes two paramaters: `Input` and `SaltSize`. `SaltSize` is same for all encryption functions.
+Takes two parameters: `Input` and `SaltSize`. `SaltSize` is the same for all encryption functions.
 
 ## Input
 `string input = "Emre";`  
 `EncryptSha256()` hashes the input with SHA256 encryption.  
-`EncryptBlake2B(256)` hashes the input with Blake2 encryption. You can also specify `hashSize` paramater.  
-`EncryptArgon2(128)` hashes the input with Argon2 encryption. You can also specify `hashSize` paramater.  
+`EncryptBlake2B(256)` hashes the input with Blake2 encryption. You can also specify `hashSize` parameter.  
+`EncryptArgon2(128)` hashes the input with Argon2 encryption. You can also specify `hashSize` parameter.  
 
 ## Output
 SHA256  
