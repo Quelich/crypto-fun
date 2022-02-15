@@ -1,0 +1,17 @@
+C:\Github Repos\crypto-fun\bin\Debug\net6.0\crypto-fun.exe
+C:\Github Repos\crypto-fun\bin\Debug\net6.0\crypto-fun.deps.json
+C:\Github Repos\crypto-fun\bin\Debug\net6.0\crypto-fun.runtimeconfig.json
+C:\Github Repos\crypto-fun\bin\Debug\net6.0\crypto-fun.dll
+C:\Github Repos\crypto-fun\bin\Debug\net6.0\ref\crypto-fun.dll
+C:\Github Repos\crypto-fun\bin\Debug\net6.0\crypto-fun.pdb
+C:\Github Repos\crypto-fun\bin\Debug\net6.0\Konscious.Security.Cryptography.Blake2.dll
+C:\Github Repos\crypto-fun\obj\Debug\net6.0\crypto-fun.csproj.AssemblyReference.cache
+C:\Github Repos\crypto-fun\obj\Debug\net6.0\crypto-fun.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github Repos\crypto-fun\obj\Debug\net6.0\crypto-fun.AssemblyInfoInputs.cache
+C:\Github Repos\crypto-fun\obj\Debug\net6.0\crypto-fun.AssemblyInfo.cs
+C:\Github Repos\crypto-fun\obj\Debug\net6.0\crypto-fun.csproj.CoreCompileInputs.cache
+C:\Github Repos\crypto-fun\obj\Debug\net6.0\crypto-fun.csproj.CopyComplete
+C:\Github Repos\crypto-fun\obj\Debug\net6.0\crypto-fun.dll
+C:\Github Repos\crypto-fun\obj\Debug\net6.0\ref\crypto-fun.dll
+C:\Github Repos\crypto-fun\obj\Debug\net6.0\crypto-fun.pdb
+C:\Github Repos\crypto-fun\obj\Debug\net6.0\crypto-fun.genruntimeconfig.cache
