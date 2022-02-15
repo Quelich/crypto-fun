@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Konscious.Security.Cryptography.Argon2" Version="1.2.1" />
     <PackageReference Include="Konscious.Security.Cryptography.Blake2" Version="1.0.9" />
   </ItemGroup>
 

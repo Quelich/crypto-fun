@@ -15,3 +15,4 @@ C:\Github Repos\crypto-fun\obj\Debug\net6.0\crypto-fun.dll
 C:\Github Repos\crypto-fun\obj\Debug\net6.0\ref\crypto-fun.dll
 C:\Github Repos\crypto-fun\obj\Debug\net6.0\crypto-fun.pdb
 C:\Github Repos\crypto-fun\obj\Debug\net6.0\crypto-fun.genruntimeconfig.cache
+C:\Github Repos\crypto-fun\bin\Debug\net6.0\Konscious.Security.Cryptography.Argon2.dll

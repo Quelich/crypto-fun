@@ -2,6 +2,20 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Konscious.Security.Cryptography.Argon2/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Konscious.Security.Cryptography.Blake2": "1.0.9",
+          "NETStandard.Library": "1.6.1",
+          "System.IO.UnmanagedMemoryStream": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.3/Konscious.Security.Cryptography.Argon2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Konscious.Security.Cryptography.Argon2.dll": {}
+        }
+      },
       "Konscious.Security.Cryptography.Blake2/1.0.9": {
         "type": "package",
         "dependencies": {
@@ -526,6 +540,26 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.IO.FileSystem.Primitives.dll": {}
+        }
+      },
+      "System.IO.UnmanagedMemoryStream/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.IO.FileSystem.Primitives": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.3/System.IO.UnmanagedMemoryStream.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.IO.UnmanagedMemoryStream.dll": {}
         }
       },
       "System.Linq/4.3.0": {
@@ -1216,6 +1250,21 @@
     }
   },
   "libraries": {
+    "Konscious.Security.Cryptography.Argon2/1.2.1": {
+      "sha512": "NruBy/ieIh58zLLTSKhjdB+mRiXKPRoQESWFiDGKyIvyG9nf+sgNCYaMhFQsFp3wExRzOVvgnifXla2SYr1C+A==",
+      "type": "package",
+      "path": "konscious.security.cryptography.argon2/1.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "konscious.security.cryptography.argon2.1.2.1.nupkg.sha512",
+        "konscious.security.cryptography.argon2.nuspec",
+        "lib/net46/Konscious.Security.Cryptography.Argon2.dll",
+        "lib/net46/Konscious.Security.Cryptography.Argon2.xml",
+        "lib/netstandard1.3/Konscious.Security.Cryptography.Argon2.dll",
+        "lib/netstandard1.3/Konscious.Security.Cryptography.Argon2.xml"
+      ]
+    },
     "Konscious.Security.Cryptography.Blake2/1.0.9": {
       "sha512": "M1s1BjaKSE68dCDnU0/OlrR6HbRZt8qgKq35aBqq3MHqxrn2WyczUkpx7M05tHhdMCoHOewhob5h2r2qn1oQXQ==",
       "type": "package",
@@ -2429,6 +2478,45 @@
         "ref/xamarinwatchos10/_._",
         "system.io.filesystem.primitives.4.3.0.nupkg.sha512",
         "system.io.filesystem.primitives.nuspec"
+      ]
+    },
+    "System.IO.UnmanagedMemoryStream/4.3.0": {
+      "sha512": "tS89nK7pw8ebkkEfWujA05+ZReHKzz39W+bcX1okVR0GJCJuzPyfYfQZyiLSrjp121BB5J4uewZQiUTKri2pSQ==",
+      "type": "package",
+      "path": "system.io.unmanagedmemorystream/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.IO.UnmanagedMemoryStream.dll",
+        "lib/netstandard1.3/System.IO.UnmanagedMemoryStream.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.IO.UnmanagedMemoryStream.dll",
+        "ref/netstandard1.3/System.IO.UnmanagedMemoryStream.dll",
+        "ref/netstandard1.3/System.IO.UnmanagedMemoryStream.xml",
+        "ref/netstandard1.3/de/System.IO.UnmanagedMemoryStream.xml",
+        "ref/netstandard1.3/es/System.IO.UnmanagedMemoryStream.xml",
+        "ref/netstandard1.3/fr/System.IO.UnmanagedMemoryStream.xml",
+        "ref/netstandard1.3/it/System.IO.UnmanagedMemoryStream.xml",
+        "ref/netstandard1.3/ja/System.IO.UnmanagedMemoryStream.xml",
+        "ref/netstandard1.3/ko/System.IO.UnmanagedMemoryStream.xml",
+        "ref/netstandard1.3/ru/System.IO.UnmanagedMemoryStream.xml",
+        "ref/netstandard1.3/zh-hans/System.IO.UnmanagedMemoryStream.xml",
+        "ref/netstandard1.3/zh-hant/System.IO.UnmanagedMemoryStream.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.io.unmanagedmemorystream.4.3.0.nupkg.sha512",
+        "system.io.unmanagedmemorystream.nuspec"
       ]
     },
     "System.Linq/4.3.0": {
@@ -4550,6 +4638,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Konscious.Security.Cryptography.Argon2 >= 1.2.1",
       "Konscious.Security.Cryptography.Blake2 >= 1.0.9"
     ]
   },
@@ -4592,6 +4681,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Konscious.Security.Cryptography.Argon2": {
+            "target": "Package",
+            "version": "[1.2.1, )"
+          },
           "Konscious.Security.Cryptography.Blake2": {
             "target": "Package",
             "version": "[1.0.9, )"

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BJ7kYPDHxNA9Sfa20BZN/SIpYFXWdOSAypaMg6dwMUV2PIweH+lenfosOhCUwFB4fPE4dEIr09ypgUW7cN/Psg==",
+  "dgSpecHash": "ExMWpw25LgXnFQN1gNZRmM7c19z3JEbdcfGo/c2Wkc2ObfS7l9HYeCyRY9VHUJUUFba6uU2HNhwImf3/h7Lx8A==",
   "success": true,
   "projectFilePath": "C:\\Github Repos\\crypto-fun\\crypto-fun.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\emre1\\.nuget\\packages\\konscious.security.cryptography.argon2\\1.2.1\\konscious.security.cryptography.argon2.1.2.1.nupkg.sha512",
     "C:\\Users\\emre1\\.nuget\\packages\\konscious.security.cryptography.blake2\\1.0.9\\konscious.security.cryptography.blake2.1.0.9.nupkg.sha512",
     "C:\\Users\\emre1\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\emre1\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
@@ -42,6 +43,7 @@
     "C:\\Users\\emre1\\.nuget\\packages\\system.io.compression.zipfile\\4.3.0\\system.io.compression.zipfile.4.3.0.nupkg.sha512",
     "C:\\Users\\emre1\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\emre1\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\emre1\\.nuget\\packages\\system.io.unmanagedmemorystream\\4.3.0\\system.io.unmanagedmemorystream.4.3.0.nupkg.sha512",
     "C:\\Users\\emre1\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
     "C:\\Users\\emre1\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
     "C:\\Users\\emre1\\.nuget\\packages\\system.net.http\\4.3.0\\system.net.http.4.3.0.nupkg.sha512",
