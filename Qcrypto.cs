@@ -62,6 +62,21 @@ public class Qcrypto
         return hashStr;
     }
 
+    // Generate hash using HMACSHA256 function
+    public string EncryptHMACSHA256(string key)
+    {
+        if (Input == "" && Input == null)
+            throw new Exception("Input is empty");
+        var input = Input;
+        Encoding enc = Encoding.UTF8;
+        Byte[] inputBytes = enc.GetBytes(input);
+        Byte[] keyBytes = enc.GetBytes(key);
+        HMACSHA256 hMACSHA256Hash = new HMACSHA256(keyBytes);
+        Byte[] computeHash = hMACSHA256Hash.ComputeHash(inputBytes);
+        var hashStr = ByteToString(computeHash);
+        return hashStr;
+    }
+
     //Convert byte array, hash code, to a string
     private string ByteToString(byte[] byteData)
     {
@@ -102,6 +117,10 @@ internal class Program
         Console.WriteLine(string.Format("{0}\n{1}", "Blake2B", result_1));
         var result_2 = instance.EncryptArgon2(128);
         Console.WriteLine(string.Format("{0}\n{1}", "Blake2B", result_2));
+        System.Console.WriteLine("\nHMACSHA256");
+         var result_3 = instance.EncryptHMACSHA256("1");
+         var result_4 = instance.EncryptHMACSHA256("2");
+         Console.WriteLine(string.Format("{0}\n{1}", result_3, result_4));
     }
 
 }
