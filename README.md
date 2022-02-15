@@ -7,9 +7,9 @@ Takes two paramaters: `Input` and `SaltSize`. `SaltSize` is same for all encrypt
 
 ## Input
 `string input = "Emre";`  
-`EncryptSha256()` encryptes the input with SHA256 encryption.  
-`EncryptBlake2B(256)` encryptes the input with Blake2 encryption. You can also specify `hashSize` paramater.  
-`EncryptArgon2(128)` encryptes the input with Argon2 encryption. You can also specify `hashSize` paramater.  
+`EncryptSha256()` hashes the input with SHA256 encryption.  
+`EncryptBlake2B(256)` hashes the input with Blake2 encryption. You can also specify `hashSize` paramater.  
+`EncryptArgon2(128)` hashes the input with Argon2 encryption. You can also specify `hashSize` paramater.  
 
 ## Output
 SHA256  
